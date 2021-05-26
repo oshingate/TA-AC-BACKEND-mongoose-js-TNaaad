@@ -8,7 +8,7 @@ let addressSchema = new Schema(
     city: String,
     state: String,
     pin: Number,
-    user: Schema.user.ObjectId,
+    user: Schema.Types.ObjectId,
   },
   { timestamps: true }
 );
